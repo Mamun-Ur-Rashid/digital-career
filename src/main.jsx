@@ -7,6 +7,7 @@ import ErrorPage from './component/ErrorPage'
 import Home from './component/Home'
 import Statistices from './component/Statistices'
 import AppledJob from './component/AppledJob'
+import Blog from './component/Blog'
 
 const router =createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router =createBrowserRouter([
       {
         path:'/appled',
         element: <AppledJob></AppledJob>
+      },
+      {
+        path:'/blog',
+        element: <Blog></Blog>
       }
     ]
   }

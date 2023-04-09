@@ -1,0 +1,26 @@
+[
+{
+    "id": 1,
+    "logo": "https://example.com/job1.png",
+    "name": "Job 1",
+    "available": "200"
+  },
+  {
+    "id": 2,
+    "logo": "https://example.com/job2.png",
+    "name": "Job 2",
+    "available": "250"
+  },
+  {
+    "id": 3,
+    "logo": "https://example.com/job3.png",
+    "name": "Job 3",
+    "available": "300"
+  },
+  {
+    "id": 300,
+    "logo": "https://example.com/job300.png",
+    "name": "Job 300",
+    "available": "400"
+  }
+]
