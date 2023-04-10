@@ -1,0 +1,104 @@
+[
+    {
+      "company-logo": "../src/assets/Logo/google-1-1 1-1.png",
+      "job-title": "Software Engineer",
+      "company-name": "Google LLc",
+      "job-type": "Full-time",
+      "location": "New York, NY",
+      "salary": "100k - 150k",
+      "contact-information": {
+        "phone": "123-456-7890",
+        "email": "hr@google.com"
+      },
+      "address": "123 Main St, New York, NY 10001",
+      "job-description": "We are looking for a skilled software engineer to join our team.",
+      "job-responsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+      "educational-requirement": "Bachelor's or Master's degree in Computer Science or related field.",
+      "experience": "3+ years of experience in software development."
+    },
+    {
+      "company-logo": "../src/assets/Logo/netflix-4 1.png",
+      "job-title": "Senior Product Designer",
+      "company-name": "Netflix",
+      "job-type": "Part-time",
+      "location": "Dhaka Bangladesh, CA",
+      "salary": "100k - 150k",
+      "contact-information": {
+        "phone": "555-123-4567",
+        "email": "hr@Netflic.com"
+      },
+      "address": "1200, Gulshan, CA 94102",
+      "job-description": "We are seeking an experienced marketing manager to lead our marketing efforts.",
+      "job-responsibility": "Develop and execute marketing strategies, manage campaigns and budgets, and analyze data to measure success.",
+      "educational-requirement": "Bachelor's or Master's degree in Marketing or related field.",
+      "experience": "5+ years of experience in marketing."
+    },
+    {
+        "company-logo": "../src/assets/Logo/google-1-1 1-1.png",
+        "job-title": "Software Engineer",
+        "company-name": "Google LLc",
+        "job-type": "Full-time",
+        "location": "New York, NY",
+        "salary": "100k - 150k",
+        "contact-information": {
+          "phone": "123-456-7890",
+          "email": "hr@google.com"
+        },
+        "address": "123 Main St, New York, NY 10001",
+        "job-description": "We are looking for a skilled software engineer to join our team.",
+        "job-responsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+        "educational-requirement": "Bachelor's or Master's degree in Computer Science or related field.",
+        "experience": "3+ years of experience in software development."
+      },
+      {
+        "company-logo": "../src/assets/Logo/tesla-9 1.png",
+        "job-title": "Software Engineer",
+        "company-name": "Tesla",
+        "job-type": "Full-time",
+        "location": "Dhaka Bangladesh, CA",
+        "salary": "100k - 150k",
+        "contact-information": {
+          "phone": "123-456-7890",
+          "email": "hr@tesla.com"
+        },
+        "address": "Dhaka,banani, NY 10001",
+        "job-description": "We are looking for a skilled software engineer to join our team.",
+        "job-responsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+        "educational-requirement": "Bachelor's or Master's degree in Computer Science or related field.",
+        "experience": "3+ years of experience in software development."
+      },
+      {
+        "company-logo": "../src/assets/Logo/netflix-4 1.png",
+        "job-title": "Software Engineer",
+        "company-name": "Netflix",
+        "job-type": "Full-time",
+        "location": "New York, NY",
+        "salary": "100k - 150k",
+        "contact-information": {
+          "phone": "123-456-7890",
+          "email": "hr@Netflic.com"
+        },
+        "address": "123 Main St, New York, NY 10001",
+        "job-description": "We are looking for a skilled software engineer to join our team.",
+        "job-responsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+        "educational-requirement": "Bachelor's or Master's degree in Computer Science or related field.",
+        "experience": "3+ years of experience in software development."
+      },
+      {
+        "company-logo": "../src/assets/Logo/google-1-1 1.png",
+        "job-title": "Software Engineer",
+        "company-name": "Google lC",
+        "job-type": "Full-time",
+        "location": "New York, NY",
+        "salary": "100k - 150k",
+        "contact-information": {
+          "phone": "123-456-7890",
+          "email": "hr@googlelc.com"
+        },
+        "address": "123 Main St, New York, NY 10001",
+        "job-description": "We are looking for a skilled software engineer to join our team.",
+        "job-responsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+        "educational-requirement": "Bachelor's or Master's degree in Computer Science or related field.",
+        "experience": "3+ years of experience in software development."
+      }
+  ]

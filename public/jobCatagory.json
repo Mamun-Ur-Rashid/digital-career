@@ -1,26 +1,26 @@
 [
-{
-    "id": 1,
-    "logo": "https://example.com/job1.png",
-    "name": "Job 1",
-    "available": "200"
+  {
+    "_id": "6433a7b1d90c68d489a47363",
+    "picture": "../src/assets/Icons/accounts 1.png",
+    "avilable": 300,
+    "name": "Account & Finance"
   },
   {
-    "id": 2,
-    "logo": "https://example.com/job2.png",
-    "name": "Job 2",
-    "available": "250"
+    "_id": "6433a7b1cb8f09282ffffcc8",
+    "picture": "../src/assets/Icons/business 1.png",
+    "avilable": 150,
+    "name": "Creative Design"
   },
   {
-    "id": 3,
-    "logo": "https://example.com/job3.png",
-    "name": "Job 3",
-    "available": "300"
+    "_id": "6433a7b1bf0c41894f3fbc19",
+    "picture": "../src/assets/Icons/social-media 1.png",
+    "avilable": 32,
+    "name": "Rush Sawyer"
   },
   {
-    "id": 300,
-    "logo": "https://example.com/job300.png",
-    "name": "Job 300",
-    "available": "400"
+    "_id": "6433a7b1a6875b05d92e12c6",
+    "picture": "../src/assets/Icons/chip 1.png",
+    "avilable": 31,
+    "name": "Cameron Burnett"
   }
 ]
