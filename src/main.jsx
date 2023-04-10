@@ -8,6 +8,8 @@ import Home from './component/Home'
 import Statistices from './component/Statistices'
 import AppledJob from './component/AppledJob'
 import Blog from './component/Blog'
+import ViewDetails from './component/ViewDetails'
+import { jobFeaturesData } from './loader/getJobFeaturesData'
 
 const router =createBrowserRouter([
   {
@@ -17,7 +19,13 @@ const router =createBrowserRouter([
     children:[
       {
         path:'/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: () => fetch('/jobFetures.json')
+      },
+      {
+        path:'viewDetails/:id',
+        element: <ViewDetails></ViewDetails>,
+        loader: ({params}) => fetch('/jobFetures.json')
       },
       {
         path:'/statistic',
@@ -25,7 +33,8 @@ const router =createBrowserRouter([
       },
       {
         path:'/appled',
-        element: <AppledJob></AppledJob>
+        element: <AppledJob></AppledJob>,
+        loader: jobFeaturesData
       },
       {
         path:'/blog',

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { Link, useLoaderData} from 'react-router-dom';
 
 const Home = () => {
+    
     const [categoryJob, setCategoryJob] = useState([]);
 
     useEffect(() => {
@@ -8,6 +10,9 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setCategoryJob(data))
     }, [])
+const features = useLoaderData();
+// console.log(features);
+    
     return (
         <div className='container mb-40'>
             <div className='flex gap-5 justify-between items-center'>
@@ -25,17 +30,35 @@ const Home = () => {
                 <p className='mb-8'>Explore thousands of job opportunities all the information you need its your future</p>
                 <div className='grid lg:grid-cols-4 gap-8 mr-40'>
                     {
-                        categoryJob.map(job => <div className='shadow-xl bg-slate-100 rounded flex flex-col justify-start items-start pl-10 py-4'>
+                        categoryJob.map(job => <div className='shadow-xl bg-slate-100 rounded flex flex-col justify-start items-start pl-10 py-4' key={job._id}>
+                            
                             <p> <img className='text-center' src={job.picture} alt="" /></p>
                             <p className='py-5'>{job.name}</p>
                             <p className='mb-4'><small>{job.avilable} available job</small></p></div>)
                     }
                 </div>
             </div>
-            <div className='text-center mt-40'>
-                <h1 className='font-bold text-3xl text-center mb-4'>Job Category List</h1>
+           <div>
+           <div className='text-center mt-40'>
+                <h1 className='font-bold text-3xl text-center mb-4'>Featured Jobs</h1>
                 <p className='mb-8'>Explore thousands of job opportunities all the information you need its your future</p>
             </div>
+            <div className='grid md:grid-cols-2 gap-8'>
+                {
+                    features.map(jobFeature => <div key={jobFeature.id} className='w-[480px] shadow-2xl mr-40 rounded-xl p-6 ml-6'> 
+                    <img src={jobFeature.logo} alt="" />
+                    <p className='mt-8'>{jobFeature.title}</p>
+                    <p className='my-3'>{jobFeature.companyName}</p>
+                    <div className='flex gap-10 mb-4'>
+                        <p>{jobFeature.location}</p>
+                        <p>{jobFeature.salary}</p>
+                    </div>
+                    <Link to={`/viewDetails/${jobFeature.id}`}><button className='btn-primary'>View Details</button></Link>
+                    </div>
+                    )
+                }
+            </div>
+           </div>
         </div>
     );
 };
