@@ -10,6 +10,7 @@ import AppledJob from './component/AppledJob'
 import Blog from './component/Blog'
 import ViewDetails from './component/ViewDetails'
 import { jobFeaturesData } from './loader/getJobFeaturesData'
+import { Toaster } from 'react-hot-toast'
 
 const router =createBrowserRouter([
   {
@@ -45,7 +46,9 @@ const router =createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+    <>
+    <Toaster></Toaster>
     <RouterProvider router={router}>
-
     </RouterProvider>
+    </>
 )

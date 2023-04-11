@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { AddToDB } from '../fackDB';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { toast } from 'react-hot-toast';
 
 const ViewDetails = () => {
     const [data, setData] = useState([])
@@ -18,6 +19,7 @@ const ViewDetails = () => {
     // console.log(data)
     const handleApplyToJob = (id) => {
         AddToDB(id);
+        toast.success("Added appled to job")
         // console.log(id);
     }
     return (
