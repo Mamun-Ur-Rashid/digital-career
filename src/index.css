@@ -27,3 +27,12 @@
 .default{
   @apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-cyan-600
 }
+
+hr {
+  position: relative;
+  top: 10px;
+  border: none;
+  height: 2px;
+  background: gray;
+  margin-bottom: 25px;
+}

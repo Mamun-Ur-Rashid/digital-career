@@ -2,9 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData} from 'react-router-dom';
 
 const Home = () => {
-    
     const [categoryJob, setCategoryJob] = useState([]);
-
     useEffect(() => {
         fetch('jobCatagory.json')
             .then(res => res.json())
@@ -12,7 +10,13 @@ const Home = () => {
     }, [])
 const features = useLoaderData();
 // console.log(features);
-    
+    // see more btn function
+   
+    const [isSeeMore, setIsSeeMore] = useState(4);
+    const handleSeeMore = () =>{
+        setIsSeeMore(isSeeMore + isSeeMore);
+    }
+    const slice = features.slice(0, isSeeMore);
     return (
         <div className='container mb-40'>
             <div className='flex gap-5 justify-between items-center'>
@@ -45,10 +49,14 @@ const features = useLoaderData();
             </div>
             <div className='grid md:grid-cols-2 gap-8'>
                 {
-                    features.map(jobFeature => <div key={jobFeature.id} className='w-[480px] shadow-2xl mr-40 rounded-xl p-6 ml-6'> 
+                    slice.map(jobFeature => <div key={jobFeature.id} className='w-[480px] shadow-2xl mr-40 rounded-xl p-6 ml-6'> 
                     <img src={jobFeature.logo} alt="" />
                     <p className='mt-8'>{jobFeature.title}</p>
                     <p className='my-3'>{jobFeature.companyName}</p>
+                    <div className='flex gap-4 text-blue-300 mb-4'>
+                        <p className='border border-blue-200 p-1'>{jobFeature.TypeOfJob}</p>
+                        <p className='border border-blue-200 p-1'>{jobFeature.jobType}</p>
+                    </div>
                     <div className='flex gap-10 mb-4'>
                         <p>{jobFeature.location}</p>
                         <p>{jobFeature.salary}</p>
@@ -58,6 +66,9 @@ const features = useLoaderData();
                     )
                 }
             </div>
+           </div>
+           <div className='my-4 flex justify-center items-center mt-6'>
+                <button onClick={() => handleSeeMore()} className='btn-primary'>See More</button>
            </div>
         </div>
     );

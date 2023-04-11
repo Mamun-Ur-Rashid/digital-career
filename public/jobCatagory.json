@@ -1,25 +1,25 @@
 [
   {
     "_id": "6433a7b1d90c68d489a47363",
-    "picture": "../src/assets/Icons/accounts 1.png",
+    "picture": "./accounts 1.png",
     "avilable": 300,
     "name": "Account & Finance"
   },
   {
     "_id": "6433a7b1cb8f09282ffffcc8",
-    "picture": "../src/assets/Icons/business 1.png",
+    "picture": "./business 1.png",
     "avilable": 150,
     "name": "Creative Design"
   },
   {
     "_id": "6433a7b1bf0c41894f3fbc19",
-    "picture": "../src/assets/Icons/social-media 1.png",
+    "picture": "./social-media 1.png",
     "avilable": 32,
     "name": "Rush Sawyer"
   },
   {
     "_id": "6433a7b1a6875b05d92e12c6",
-    "picture": "../src/assets/Icons/chip 1.png",
+    "picture": "./chip 1.png",
     "avilable": 31,
     "name": "Cameron Burnett"
   }

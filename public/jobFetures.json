@@ -1,110 +1,104 @@
 [
-    {
-      "id":1,
-      "logo": "../src/assets/Logo/google-1-1 1-1.png",
-      "title": "Software Engineer",
-      "companyName": "Google LLc",
-      "job-type": "Full-time",
-      "location": "New York, NY",
-      "salary": "100k - 150k",
-      "contactInformation": {
-        "phone": "123-456-7890",
-        "email": "hr@google.com"
-      },
-      "address": "123 Main St, New York, NY 10001",
-      "jobDescription": "We are looking for a skilled software engineer to join our team.",
-      "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
-      "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
-      "experience": "3+ years of experience in software development."
-    },
-    {
-      "id":2,  
-      "logo": "../src/assets/Logo/netflix-4 1.png",
-      "title": "Senior Product Designer",
-      "companyName": "Netflix",
-      "jobType": "Part-time",
-      "location": "Dhaka Bangladesh, CA",
-      "salary": "100k - 150k",
-      "contactInformation": {
-        "phone": "555-123-4567",
-        "email": "hr@Netflic.com"
-      },
-      "address": "1200, Gulshan, CA 94102",
-      "jobDescription": "We are seeking an experienced marketing manager to lead our marketing efforts.",
-      "jobResponsibility": "Develop and execute marketing strategies, manage campaigns and budgets, and analyze data to measure success.",
-      "educationalRequirement": "Bachelor's or Master's degree in Marketing or related field.",
-      "experience": "5+ years of experience in marketing."
-    },
-    {
-        "id":3,
-        "logo": "../src/assets/Logo/google-1-1 1-1.png",
-        "title": "Software Engineer",
-        "companyName": "Google LLc",
-        "jobType": "Full-time",
-        "location": "New York, NY",
-        "salary": "100k - 150k",
-        "contactInformation": {
-          "phone": "123-456-7890",
-          "email": "hr@google.com"
-        },
-        "address": "123 Main St, New York, NY 10001",
-        "jobDescription": "We are looking for a skilled software engineer to join our team.",
-        "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
-        "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
-        "experience": "3+ years of experience in software development."
-      },
-      {
-        "id":4,
-        "logo": "../src/assets/Logo/tesla-9 1.png",
-        "title": "Software Engineer",
-        "companyName": "Tesla",
-        "jobType": "Full-time",
-        "location": "Dhaka Bangladesh, CA",
-        "salary": "100k - 150k",
-        "contactInformation": {
-          "phone": "123-456-7890",
-          "email": "hr@tesla.com"
-        },
-        "address": "Dhaka,banani, NY 10001",
-        "jobDescription": "We are looking for a skilled software engineer to join our team.",
-        "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
-        "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
-        "experience": "3+ years of experience in software development."
-      },
-      {
-        "id":5,
-        "logo": "../src/assets/Logo/netflix-4 1.png",
-        "title": "Software Engineer",
-        "companyName": "Netflix",
-        "jobType": "Full-time",
-        "location": "New York, NY",
-        "salary": "100k - 150k",
-        "contactInformation": {
-          "phone": "123-456-7890",
-          "email": "hr@Netflic.com"
-        },
-        "address": "123 Main St, New York, NY 10001",
-        "jobDescription": "We are looking for a skilled software engineer to join our team.",
-        "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
-        "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
-        "experience": "3+ years of experience in software development."
-      },
-      {
-        "id":6,
-        "logo": "../src/assets/Logo/google-1-1 1.png",
-        "title": "Software Engineer",
-        "companyName": "Google lC",
-        "jobType": "Full-time",
-        "location": "New York, NY",
-        "salary": "100k - 150k",
-        "contactInformation": {
-          "phone": "123-456-7890",
-          "email": "hr@googlelc.com"
-        },
-        "address": "123 Main St, New York, NY 10001",
-        "jobDescription": "We are looking for a skilled software engineer to join our team.",
-        "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
-        "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
-        "experience": "3+ years of experience in software development."
-      }
-  ]
+  {
+    "id": 1,
+    "logo": "./google-1-1 1.png",
+    "title": "Software Engineer",
+    "companyName": "Google LLc",
+    "jobType": "Full-time",
+    "TypeOfJob": "Remote",
+    "location": "New York, NY",
+    "salary": "100k - 150k",
+    "phone": "123-456-7890",
+    "email": "hr@google.com",
+    "address": "123 Main St, New York, NY 10001",
+    "jobDescription": "We are looking for a skilled software engineer to join our team.",
+    "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+    "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experience": "3+ years of experience in software development."
+  },
+  {
+    "id": 2,
+    "logo": "./netflix-4 1.png",
+    "title": "Senior Product Designer",
+    "companyName": "Netflix",
+    "jobType": "Part-time",
+    "TypeOfJob": "Onsite",
+    "location": "Dhaka Bangladesh, CA",
+    "salary": "100k - 150k",
+    "phone": "555-123-4567",
+    "email": "hr@Netflic.com",
+    "address": "1200, Gulshan, CA 94102",
+    "jobDescription": "We are seeking an experienced marketing manager to lead our marketing efforts.",
+    "jobResponsibility": "Develop and execute marketing strategies, manage campaigns and budgets, and analyze data to measure success.",
+    "educationalRequirement": "Bachelor's or Master's degree in Marketing or related field.",
+    "experience": "5+ years of experience in marketing."
+  },
+  {
+    "id": 3,
+    "logo": "./tesla-9 1.png",
+    "title": "Software Engineer",
+    "companyName": "Tesla",
+    "jobType": "Full-time",
+    "TypeOfJob": "Remote",
+    "location": "New York, NY",
+    "salary": "100k - 150k",
+    "phone": "123-456-7890",
+    "email": "hr@tesla.com",
+    "address": "123 Main St, New York, NY 10001",
+    "jobDescription": "We are looking for a skilled software engineer to join our team.",
+    "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+    "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experience": "3+ years of experience in software development."
+  },
+  {
+    "id": 5,
+    "logo": "./Group 10021.png",
+    "title": "Software Engineer",
+    "companyName": "ArBnb",
+    "jobType": "Full-time",
+    "TypeOfJob": "Remote",
+    "location": "New York, NY",
+    "salary": "150k - 250k",
+    "phone": "123-456-7890",
+    "email": "hr@arbnb.com",
+    "address": "123 Main St, New York, NY 10001",
+    "jobDescription": "We are looking for a skilled software engineer to join our team.",
+    "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+    "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experience": "3+ years of experience in software development."
+  },
+  {
+    "id": 4,
+    "logo": "./google-1-1 1.png",
+    "title": "Graphics Designer",
+    "companyName": "Google technology",
+    "jobType": "Part-time",
+    "TypeOfJob": "Onsite",
+    "location": "Dhaka Bangladesh, CA",
+    "salary": "100k - 150k",
+    "phone": "123-456-7890",
+    "email": "hr@googltec.com",
+    "address": "Dhaka,banani, NY 10001",
+    "jobDescription": "We are looking for a skilled software engineer to join our team.",
+    "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+    "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experience": "3+ years of experience in software development."
+  },
+  {
+    "id": 6,
+    "logo": "./netflix-4 1.png",
+    "title": "Database Engineer",
+    "companyName": "Netflix",
+    "jobType": "Part-time",
+    "TypeOfJob": "Onsite",
+    "location": "New York, NY",
+    "salary": "100k - 200k",
+    "phone": "0170588870",
+    "email": "hr@netflictec.com",
+    "address": "Dhaka, Bangladesh, Rampura 10001",
+    "jobDescription": "We are looking for a skilled software engineer to join our team.",
+    "jobResponsibility": "Develop and maintain software applications, collaborate with team members, and participate in code reviews.",
+    "educationalRequirement": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experience": "3+ years of experience in software development."
+  }
+]
