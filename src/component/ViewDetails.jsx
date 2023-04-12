@@ -37,12 +37,12 @@ const ViewDetails = () => {
                 </div>
                 <div className='col-span-4 bg-blue-100 rounded-2xl p-10'>
                     <h1 className='my-4 divide-y '>Job Details <br /> <hr /></h1>
-                    <p className='inline-flex gap-2'><span><img src="/public/Frame.png" alt="" /></span> Salary: {data.salary}</p>
-                    <p className='my-4 inline-flex gap-2'><span><img src="/public/Frame-1.png" alt="" /></span> Job Title: {data.title}</p>
+                    <p className='inline-flex gap-2'><span><img src="https://i.ibb.co/RQphqzC/Frame.png"alt="" /></span> Salary: {data.salary}</p>
+                    <p className='my-4 inline-flex gap-2'><span><img src="https://i.ibb.co/QvJs9fk/Frame-1.png" alt="" /></span> Job Title: {data.title}</p>
                     <h3 className='mb-4'>Contact Information <br /> <hr /></h3>
-                    <p className='inline-flex gap-2'><span><img src="/public/Frame-2.png" alt="" /></span> Phone: {data.phone}</p>
-                    <p className='inline-flex gap-2'><span><img src="/public/Frame-3.png" alt="" /></span> Email: {data.email}</p>
-                    <p className='mb-5 inline-flex gap-2'><span><img src="/public/Frame-4.png" alt="" /></span> Address: {data.address}</p>
+                    <p className='inline-flex gap-2'><span><img src="https://i.ibb.co/SPQ7CGq/Frame-2.png" alt="" /></span> Phone: {data.phone}</p>
+                    <p className='inline-flex gap-2'><span><img src="https://i.ibb.co/VWv61G8/Frame-3.png" alt="" /></span> Email: {data.email}</p>
+                    <p className='mb-5 inline-flex gap-2'><span><img src="https://i.ibb.co/SsNk52h/Frame-4.png" alt="" /></span> Address: {data.address}</p>
                     <button onClick={() => handleApplyToJob(data.id)} className='btn-primary'>Apply Now</button>
                 </div>
             </div>
