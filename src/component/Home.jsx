@@ -23,7 +23,7 @@ const Home = () => {
                 <img className=' w h-28 top-0 right-0' src="/public/Vector.png" alt="" />
             </div>
             <div className='container mb-40'>
-                <div className='grid md:grid-cols-2 gap-5 justify-between items-center'>
+                <div className='grid md:grid-cols-2 gap-x-80 justify-between items-center'>
                     <div>
                         <h1 className='font-extrabold text-5xl mb-6'>One Step <br /> Closer To Your <br /> <span className='text-blue-400'>Dream Job</span></h1>
                         <p className='mb-4'>Explore thousands of job oportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
