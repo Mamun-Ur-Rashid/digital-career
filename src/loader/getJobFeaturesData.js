@@ -12,5 +12,5 @@ export const jobFeaturesData = async() =>{
             jobArray.push(foundJob)
         }
     }
-    return {jobArray, featuresData};
+    return jobArray;
 }

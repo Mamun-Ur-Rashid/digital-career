@@ -8,9 +8,6 @@
 .my-container{
   @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20
 }
-.product-container{
-  @apply grid gap-8  mb-8 md:grid-cols-2 lg:grid-cols-3
-}
 
 .btn-primary{
   @apply  font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-4 md:py-2  text-lg rounded-xl border-transparent border-2  text-gray-700 hover:bg-cyan-400 bg-cyan-200
@@ -35,4 +32,7 @@ hr {
   height: 2px;
   background: gray;
   margin-bottom: 25px;
+}
+.navbar{
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
 }
