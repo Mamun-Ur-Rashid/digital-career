@@ -16,7 +16,7 @@ const Statistices = () => {
         <div>
             <div className='navbar'>
                 <h1 className='text-center font-bold text-2xl'>Statistics</h1>
-                <img className=' w h-28 top-0 right-0' src="/public/Vector.png" alt="" />
+                <img className=' w h-28 top-0 right-0' src="https://i.ibb.co/4FkDTYT/Vector.png" alt="" />
             </div>
             <div className='container text-center mx-auto justify-start flex-col items-center w-3/4'>
                 <h1 className='text-2xl text-blue-500 font-semibold underline'>Assignment Marks</h1>

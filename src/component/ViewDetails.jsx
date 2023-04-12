@@ -26,7 +26,7 @@ const ViewDetails = () => {
         <div>
             <div className='navbar'>
                 <h1 className='text-center font-bold text-2xl'>View Details</h1>
-                <img className=' w h-28 top-0 right-0' src="/public/Vector.png" alt="" />
+                <img className=' w h-28 top-0 right-0' src="https://i.ibb.co/4FkDTYT/Vector.png" alt="" />
             </div>
             <div className='container grid grid-cols-12 gap-14'>
                 <div className='col-span-8 p-10'>

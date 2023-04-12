@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
     return (
         <div className='navbar relative'>
-            <div><img className='absolute w h-28 top-0 right-0' src="/public/Vector-1.png" alt="" /></div>
+            <div><img className='absolute w h-28 top-0 right-0' src="https://i.ibb.co/DRZyS0m/Vector-1.png" alt="" /></div>
             <nav className='flex justify-between items-center sm:px-3 h-[200px] mx-40'>
                 <Link to='/'> <div className='md:mr-20'>
                     <h1 className='text-3xl font-bold'>Digital Career</h1>

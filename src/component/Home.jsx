@@ -20,7 +20,7 @@ const Home = () => {
     return (
         <div>
             <div className='navbar'>
-                <img className=' w h-28 top-0 right-0' src="/public/Vector.png" alt="" />
+                <img className=' w h-28 top-0 right-0' src="https://i.ibb.co/4FkDTYT/Vector.png"  alt="" />
             </div>
             <div className='container mb-40'>
                 <div className='grid md:grid-cols-2 gap-x-80 justify-between items-center'>

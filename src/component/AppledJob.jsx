@@ -27,7 +27,7 @@ const AppledJob = () => {
     <div>
       <div className='navbar'>
         <h1 className='text-center font-bold text-2xl'>Applied Jobs</h1>
-        <img className=' w h-28 top-0 right-0' src="/public/Vector.png" alt="" />
+        <img className=' w h-28 top-0 right-0' src="https://i.ibb.co/4FkDTYT/Vector.png" alt="" />
       </div>
       <div className='container'>
         <div className='flex justify-end items-end'>

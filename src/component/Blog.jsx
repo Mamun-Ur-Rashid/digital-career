@@ -5,7 +5,7 @@ const Blog = () => {
         <div>
             <div className='navbar'>
                 <h1 className='text-center font-bold text-2xl'>Blogs</h1>
-                <img className=' w h-28 top-0 right-0' src="/public/Vector.png" alt="" />
+                <img className=' w h-28 top-0 right-0' src="https://i.ibb.co/4FkDTYT/Vector.png" alt="" />
             </div>
             <div className='container'>
                 <div className='border-solid border-blue-200 rounded-xl shadow-xl bg-gray-100 p-24'>
